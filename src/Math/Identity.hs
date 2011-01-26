@@ -1,5 +1,5 @@
 module Math.Identity (
-    Identity
+    Identity(..)
 ) where
 
 class Identity a where
