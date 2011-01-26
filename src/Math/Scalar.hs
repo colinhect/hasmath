@@ -3,3 +3,4 @@ module Math.Scalar (
 ) where
 
 type Scalar = Double
+
