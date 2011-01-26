@@ -1,7 +1,7 @@
-module Math.Normalize where
-
-import Math.Scalar
+module Math.Normalize (
+    Normalize(..)
+) where
 
 class Normalize a where
-    normalize :: a -> Scalar
+    normalize :: a -> a
 
